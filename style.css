@@ -1,0 +1,246 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*
+Headeur à copier sur toutes les pages
+*/
+
+header {
+    background-color: #682133;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .linkstyle {
+    background-color: rgb(240, 218, 235);
+    text-decoration: none;
+    font-family: "Indie Flower", cursive;
+    color: #682133;
+    font-size: 25px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  }
+  
+  .linkstyle:visited {
+    color: rgb(118, 29, 153);
+  }
+
+/*
+Fin du headeur 1
+*/
+
+/*
+Main de la page 1
+*/
+
+.titrePrincipal {
+  background-image: url(IMAGE/sakura_fleur01.webp);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+}
+
+.h2Style {
+  margin: 0px;
+  background-color: #682133;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 30px; 
+  font-family: "Indie Flower", cursive;
+}
+
+.articleStyle {
+  display: flex;
+}
+
+.block33 {
+  flex-basis: 33.33%;
+  padding:20px
+}
+
+.imageStyle {
+  width: 100%;
+}
+
+.titreimage {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.h3Style {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #682133;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  left: 20px;
+}
+
+.p1Style {
+  position: absolute;
+  bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 15px;
+}
+
+/*
+Main de la page 2
+*/
+
+.mainStyle {
+  background-color: rgb(240, 218, 235);
+}
+
+.titrePrincipal {
+  background-image: url(IMAGE/sakura_fleur01.webp);
+  background-position: center;
+  background-position: cover;
+  height: 500px;
+  margin: 0px;
+  position: relative;
+  height: 50vh;
+}
+
+.h2Style {
+  margin: 0px;
+  background-color: #682133;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+}
+
+.articleStyle {
+  display: flex;
+  margin-top: 50px;
+}
+
+.block50 {
+  flex-basis: 50%;
+  margin: 50px;
+}
+
+.imageStyle {
+  width: 100%;
+}
+
+.imageTitre {
+  position: relative;
+}
+
+.h3Style {
+  position: absolute;
+  background-color: #682133;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+/*
+fin du main de la page 2
+*/
+
+/*
+Main de la page 3
+*/
+
+.mainStyle {
+  background-color: rgb(240, 218, 235);
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.policeformulaire {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: ;
+}
+
+.rectangleformulaire {
+  width: 100%;
+}
+
+.bouton {
+  background-color: #682133;
+  color: white;
+  padding: 10px;
+}
+
+/*
+Fin du Main de la page 3
+*/
+
+/*
+Debut du footer à copier sur toutes les pages
+*/
+
+footer {
+  background-color: #682133;
+  height: 100px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titreFooter {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.listeFooter {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+.linkStyle2 {
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.linkStyle2:visited {
+  color: rgb(211, 107, 187);
+}
+
+/*
+Fin du footer à copier sur toutes les pages
+*/
