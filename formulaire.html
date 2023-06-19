@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Indie+Flower&family=Roboto:ital,wght@0,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulaire Sakura</title>
 </head>
 <body>
 
-<form action="mail.php" method="post">
-<input type="text" name="message" placeholder="" id="message">
-<label for="message">Message </label>
-<input type="submit" value="Envoyer">
+    <header>
+        <img
+          src="IMAGE/sakura_fleurLogo.webp"
+          alt="sakura fleur de cerisier"
+          width="150"
+        />
+        <nav class="navStyle">
+          <a href="index.html" target="_self" class="linkstyle">Fleur</a>
+          <a href="cerisier.html" target="_self" class="linkstyle">Cerisier</a>
+          <a href="contact.html" target="_self" class="linkstyle">Contact</a>
+        </nav>
+      </header>
 
-</form>    
+
+  <form action="mail.php" method="post">  
+      <main class="formulaire">
+          
+        <div class="colonne50">
+       
+            <input type="text" name="nom" placeholder="Entrez votre nom" id="message">
+            <label for="message">Nom </label> <br>
+
+            <input type="radio" id="option1" name="options" value="option1">
+            <label for="option1">Option 1</label><br>
+            <input type="radio" id="option2" name="options" value="option2">
+            <label for="option2">Option 2</label><br>
+            <input type="radio" id="option3" name="options" value="option3">
+            <label for="option3">Option 3</label><br>
+        </div>
+
+        <div class="colonne50">
+            <label for="message">Message<br><input type="text" name="message" placeholder="" id="message">
+            </label><br>
+            <input type="checkbox" id="myCheckbox" name="myCheckbox">
+            <label for="myCheckbox">Ma case à cocher</label> <br>
+            <input type="checkbox" id="myCheckbox" name="myCheckbox">
+            <label for="myCheckbox">Ma case à cocher</label> <br>
+            <input type="checkbox" id="myCheckbox" name="myCheckbox">
+            <label for="myCheckbox">Ma case à cocher</label> <br>
+        </div>
+    
+    <input type="submit" value="Envoyer">
+
+    </main>
+    </form>
+
+<footer>
+    <div class="titreFooter">&copy; La page fantastique</div>
+    <nav>
+      <ul>
+        <li class="listeFooter">
+          <a href="index.html" target="_self" class="linkStyle2"> Fleur </a>
+        </li>
+        <li class="listeFooter">
+          <a href="cerisier.html" target="_self" class="linkStyle2">
+            Cerisier
+          </a>
+        </li>
+        <li class="listeFooter">
+          <a href="contact.html" target="_self" class="linkStyle2">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 
 
 </body>

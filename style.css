@@ -203,6 +203,27 @@ Main de la page 3
 Fin du Main de la page 3
 */
 
+
+/*
+Début du main du formulaire
+*/
+
+.formulaire {
+display:flex;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.colonne50 {
+flex-basis:50%
+
+}
+
+
+
+/*
+Fin du main du formulaire
+*/
+
 /*
 Debut du footer à copier sur toutes les pages
 */
